@@ -1,0 +1,334 @@
+/* CSS Document */
+.header{
+	padding:  0;
+	background: #000000;
+	
+}
+
+.logo {
+	height: px;
+	background: #000000
+}
+.nav ul{
+	list-style: none
+}
+.nav li{
+	margin: 0 100px;
+}
+.nav li a{
+	text-decoration: none;
+	color: white;
+	padding: 16px
+}
+.nav li a:hover{
+	opacity: 0.8
+}
+.kocogi{
+	background: url("../StartScreen_MS22.02_FUT22_1920x600.jpg");
+	height: 600px;
+	background-attachment: fixed
+}
+.aaa{
+	text-align: center;
+	font-size: 30px
+}
+.xaoquan1 h1{
+	font-size: 20px;
+	text-align: center
+	
+}
+.xaoquan2 h1{
+	font-size: 20px;
+	text-align: center
+	
+}
+.xaoquan3 h1{
+	font-size: 20px;
+	text-align: center
+	
+}
+.xaoquan h1{
+	font-size: 20px;
+	text-align: center
+	
+}
+.xaoquan p{
+	font-size: 15px;
+	text-align: center
+}
+.xaoquan1 p{
+	font-size: 15px;
+	text-align: center
+}
+.xaoquan2 p{
+	font-size: 15px;
+	text-align: center
+}
+.xaoquan3 p{
+	font-size: 15px;
+	text-align: center
+}
+.qq video{
+	height: 800px;
+	width: 1200px
+}
+.xao{
+	margin-top: 80px;
+	margin-bottom: 10px;
+
+
+}
+
+.xao1{
+	margin-bottom: 10px
+	
+}
+
+.xaoke{
+	background: #FF070B
+}
+.kaka{
+	
+	overflow:hidden;
+border-bottom-right-radius:20%;
+}
+.kaka2{
+		border-bottom-right-radius:20%;
+	overflow:hidden;
+}
+.kaka3{
+	border-bottom-right-radius:20%;
+	overflow:hidden;
+	
+}
+
+.kaka img{
+	height: 300px;
+	padding: 40px 0px;
+	padding-bottom:5px;
+	
+}
+.kaka2 img{
+	height: 300px;
+    padding: 40px 0px;
+	padding-bottom:5px;
+}
+.kaka3 img{
+	height: 300px;
+	padding: 40px 0px;
+		padding-bottom:5px;
+
+	
+}
+
+.doan3 h1{
+	text-decoration: none;
+   font-weight: 700;
+	color:black;
+text-transform: uppercase;
+	padding:5px 0;
+		font-size:20px;
+}
+.doan3 h1:hover{
+	color:#F9C603;
+	font-size:21px;
+	
+}
+.kaka img:hover{
+	transform: scale(1.3);
+	transition-duration:0.5s;
+	transition-delay: 0.5s;
+}
+.kaka2 img:hover{
+	transform: scale(1.3);
+	transition-duration:0.5s;
+	transition-delay: 0.5s;
+}
+.kaka3 img:hover{
+	transform: scale(1.3);
+	transition-duration:0.5s;
+transition-delay: 0.5s;
+
+}
+.box1{
+	height:180px;
+	width: 330px;
+	overflow: hidden;
+	margin:40px 1px;
+	border-radius:10%;
+	position: relative;
+	background: #000000
+}
+.box1:hover{
+	background:#000000;
+	
+}
+.hinh img{
+	margin:5px;
+	overflow: hidden;
+
+	
+}
+.overlay{
+	height:50px;
+	width:0;
+	background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(88,78,78,0.5609594179468662) 0%, rgba(49,45,45,1) 100%);
+	
+	position: absolute;
+	bottom:0;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	
+	
+	color: white;
+	transition-duration:0.5s;
+}.overlay a{
+	text-decoration: none;
+	color: gold;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.box1:hover .overlay{
+	width: 70%;
+	
+}
+.overlay a:hover{
+	color:black;
+	font-size: 20px;
+}
+
+.khung1{
+	height:320px;
+	
+	margin-top: 40px;
+	overflow: hidden;
+
+	
+}
+.khung2{
+	height:320px;
+	
+	margin-top: 40px;
+	overflow: hidden;
+	
+	
+}
+.khung3{
+	height:320px;
+
+		margin-top: 45px;
+	overflow: hidden;
+
+		
+}
+.khung4{
+	height:320px;
+	
+		margin-top: 45px;
+	overflow: hidden;
+
+}
+.khung1 img{
+	height: 380px;
+transform: scale(0.7);
+	
+}
+.khung2 img{
+	height: 380px;
+	transform: scale(0.7);
+}.khung3 img{
+	height: 380px;
+	transform: scale(0.7);
+}.khung4 img{
+	height: 380px;
+	transform: scale(0.7);
+}
+.khung1 img:hover{
+		transform: scale(1);
+	transition-duration:0.4s;
+transition-delay: 0.3s;
+
+}
+.khung2 img:hover{
+		transform: scale(1);
+	transition-duration:0.4s;
+transition-delay: 0.3s;
+
+}
+.khung3 img:hover{
+		transform: scale(1);
+	transition-duration:0.4s;
+transition-delay: 0.3s;
+
+}
+.khung4 img:hover{
+		transform: scale(1);
+	transition-duration:0.4s;
+transition-delay: 0.3s;
+
+}
+.ban a{
+	font-size: 20px;
+z-index: 100;
+padding:10px;
+	position: absolute;
+
+	font-weight: 700;
+	text-decoration:none;
+	color:white;
+	background: black;
+	text-align: center;
+}
+.ban a:hover{
+	border-bottom: 5px solid #F9C603;
+
+}
+.ban1 a{
+	font-size: 20px;
+z-index: 100;
+padding:10px;
+	position: absolute;
+	font-weight: 700;
+	text-decoration:none;
+	color:white;
+	background: black;
+}
+.ban2 a{
+	font-size: 20px;
+z-index: 100;
+padding:10px;
+	position: absolute;
+	font-weight: 700;
+	text-decoration:none;
+	color:white;
+	background: black;
+}
+
+.ban3 a{
+	font-size: 20px;
+z-index: 100;
+padding:10px;
+	position: absolute;
+	font-weight: 700;
+	text-decoration:none;
+	color:white;
+	background: black;
+}
+
+
+.footer{
+	background: black;
+	
+}
+.chu b{
+	text-align: center;
+	color: white
+	
+}
+.chu{
+	width: 800px;
+	
+}
